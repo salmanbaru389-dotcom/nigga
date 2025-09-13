@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Modern - Wally West Theme</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <script src="https://kit.fontawesome.com/a2e0e9f6c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Video Background -->
+  <video autoplay muted loop playsinline id="bgVideo">
+    <source src="video.mp4" type="video/mp4">
+    Browsermu tidak mendukung video background.
+  </video>
+
+  <!-- Popup Selamat Datang -->
+  <div class="welcome-popup" id="welcomePopup">
+    <div class="popup-box">
+      <h2>⚡ Selamat Datang ⚡</h2>
+      <p>Klik tombol di bawah untuk masuk ke CV Wally West Style</p>
+      <button id="enterBtn">Masuk</button>
+    </div>
+  </div>
+
+  <div class="container" id="mainContent">
+    <div class="lightning"></div>
+    <div class="lightning2"></div>
+
+    <div class="profile-pic">
+      <img id="ppImage" src="wally.jpeg" alt="Foto Profil">
+    </div>
+
+    <section class="nama">
+      <h1>Salman Nikkah</h1>
+    </section>
+
+    <div class="info-card"><i class="fas fa-user"></i><span>Bio: Makan Sebelum Tido</span></div>
+    <div class="info-card"><i class="fas fa-gamepad"></i><span>Hobi: Ngoding sambil kayang</span></div>
+    <div class="info-card"><i class="fas fa-school"></i><span>Sekolah: SMK Mutu</span></div>
+    <div class="info-card"><i class="fas fa-map-marker-alt"></i><span>Alamat: Malang</span></div>
+    <div class="info-card"><i class="fas fa-envelope"></i><span>Kontak: blablava@gmail.com</span></div>
+
+    <section class="skills">
+      <h2><i class="fas fa-bolt"></i> Skill Coding</h2>
+      <div class="skill-container">
+        <div class="skill-card">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" src="wally.mp3" loop></audio>
+  <audio id="wusSound" src="wus.mp3"></audio>
+</body>
+</html>
